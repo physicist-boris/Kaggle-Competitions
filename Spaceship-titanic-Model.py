@@ -106,9 +106,9 @@ def evaluation(model_prediction, training_sample, target_array, test_sample):
 
 pd.set_option("display.max_column", 17)
 pd.set_option("display.max_row", 17)
-df = pd.read_csv("train.csv")
+df = pd.read_csv("Train_Spaceship_Titanic.csv")
 df_copy_train = df.copy()
-df_test = pd.read_csv("test.csv")
+df_test = pd.read_csv("Test_Spaceship_Titanic.csv")
 df_copy_test = df_test.copy()
 
 # Phase de prétraitement des données
