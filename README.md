@@ -1,1 +1,3 @@
-Ensemble des compétitions en data science sur Kaggle
+# Kaggle competitions
+
+This repository contains my works (models building...) on Kaggle projects.
